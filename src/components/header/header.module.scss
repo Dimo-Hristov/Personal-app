@@ -1,3 +1,14 @@
 .header {
-  margin: 48px;
+  margin: 48px 48px 48px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgContainer {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }

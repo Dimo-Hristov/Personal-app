@@ -1,18 +1,14 @@
+:root {
+  --background-color: #101630;
+  --text-color: white;
+}
+
 /* You can add global styles to this file, and also import other style files */
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-body {
-  overflow-x: hidden;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: whitesmoke;
 }
 
 /* Remove default margin */
@@ -35,6 +31,12 @@ ol[role="list"] {
   list-style: none;
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Set core root defaults */
@@ -44,7 +46,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -88,4 +90,6 @@ select {
 /* Global font */
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }

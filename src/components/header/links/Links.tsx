@@ -1,49 +1,14 @@
-import Link from "next/link"
+import { NavItem } from "@/shared/types/NavItem"
+import NavLink from "./navLink/NavLink"
+import { links } from "@/shared/data/navLink"
 
 const Links = ()=>{
-    const links = [
-        {
-            title: 'HOME',
-            path: '/'
-        },
-        {
-            title: 'ABOUT ME',
-            path: '/aboutr'
-        },
-        {
-            title: 'PORTFOLIO',
-            path: '/portfolio'
-        },
-        {
-            title: 'SERVICES',
-            path: '/services'
-        },
-        {
-            title: 'EXPERIENCE',
-            path: '/experience'
-        },
-        {
-            title: 'CONTACT',
-            path: '/contact'
-        },
-        {
-            title: 'LOGIN',
-            path: '/login'
-        },
-        {
-            title: 'REGISTER',
-            path: '/register'
-        },
-        {
-            title: 'LOGOUT',
-            path: '/logout'
-        },
-    ]
+    
 
     return (
         <ul role="list">
-            {links.map((link)=> (
-                <Link href={link.path} key={link.title}>{link.title}</Link>
+            {links.map((link: NavItem)=> (
+                <NavLink item={link} key={link.title}></NavLink>
             ))}
         </ul>
     )}

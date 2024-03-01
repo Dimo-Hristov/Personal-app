@@ -10,7 +10,7 @@ return(
         <Link href={'/'} className={styles.imgContainer}>
         <Image src={'/logo.png'} alt="Logo" fill/>
         </Link>
-    <nav>
+    <nav className={styles.navbar}>
         <Links/>
     </nav>
     </header>

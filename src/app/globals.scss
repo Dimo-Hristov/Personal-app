@@ -3,6 +3,7 @@
   --text-color: white;
   --active-link-color: #5dc0e2;
   --hover-link-color: #49a5cf;
+  --mobile-nav-color: #1d274e;
 }
 
 /* You can add global styles to this file, and also import other style files */
@@ -48,6 +49,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  max-width: 1920px;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -56,6 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 /* A elements that don't have a class get default styles */

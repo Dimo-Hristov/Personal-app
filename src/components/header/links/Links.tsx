@@ -7,7 +7,7 @@ const Links = ()=>{
     
 
     return (
-        <ul role="list" className={styles.navLinks}>
+        <ul role="list" className={styles.navList}>
             {links.map((link: NavItem)=> (
                 <NavLink item={link} key={link.title}></NavLink>
             ))}

@@ -25,16 +25,4 @@ export const links: NavItem[] = [
     title: "CONTACT",
     path: "/contact",
   },
-  {
-    title: "LOGIN",
-    path: "/login",
-  },
-  {
-    title: "REGISTER",
-    path: "/register",
-  },
-  {
-    title: "LOGOUT",
-    path: "/logout",
-  },
 ];

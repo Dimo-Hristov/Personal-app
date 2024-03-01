@@ -1,14 +1,15 @@
 import Links from "./links/Links"
 import styles from './header.module.scss'
 import Image from "next/image"
+import Link from "next/link"
 
 
 const Header = ()=>{
 return(
     <header className={styles.header}>
-        <div className={styles.imgContainer}>
+        <Link href={'/'} className={styles.imgContainer}>
         <Image src={'/logo.png'} alt="Logo" fill/>
-        </div>
+        </Link>
     <nav>
         <Links/>
     </nav>

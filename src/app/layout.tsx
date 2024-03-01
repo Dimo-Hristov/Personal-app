@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import {Roboto_Flex} from "next/font/google";
 import "./globals.scss";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto_Flex({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

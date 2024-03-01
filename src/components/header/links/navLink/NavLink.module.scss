@@ -2,7 +2,14 @@
   margin: 0 8px;
 }
 
+.navlink:hover {
+  color: var(--hover-link-color);
+}
+
+.navlink:active {
+  color: var(--active-link-color);
+}
+
 .active {
-  background-color: white;
-  color: black;
+  color: var(--active-link-color);
 }

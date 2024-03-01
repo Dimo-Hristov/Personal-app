@@ -1,11 +1,8 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("../../public/fonts/Roboto-Regular.ttf") format("truetype");
-}
-
 :root {
   --background-color: #101630;
   --text-color: white;
+  --active-link-color: #5dc0e2;
+  --hover-link-color: #49a5cf;
 }
 
 /* You can add global styles to this file, and also import other style files */
@@ -59,19 +56,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-div,
-li {
-  font-family: "Roboto";
 }
 
 /* A elements that don't have a class get default styles */

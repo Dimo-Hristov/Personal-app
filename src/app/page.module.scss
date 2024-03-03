@@ -61,8 +61,8 @@
 
     .link1,
     .link2 {
-      animation: linksMove 3s forwards;
-      animation-delay: 2s;
+      animation: linksMove 1s forwards;
+      animation-delay: 3s;
       opacity: 0;
     }
 
@@ -94,13 +94,6 @@
 }
 
 @keyframes linksMove {
-  0% {
-    opacity: 0;
-  }
-
-  30% {
-    opacity: 0.3;
-  }
   50% {
     opacity: 0.5;
   }

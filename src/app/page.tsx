@@ -17,8 +17,8 @@ export default function Home() {
         <h1 className={styles.text2}>Dimo Hristov</h1>
         <p className={styles.text3}>Full Stack Developer</p>
         <div className={styles.links}>
-        <Link href={'/'}>Download CV</Link>
-        <Link href={'/'}>Previous Projects</Link>
+        <Link className={styles.link1} href={'/'}>Download CV</Link>
+        <Link className={styles.link1} href={'/'}>Previous Projects</Link>
         </div>
         <p className={`${pacifico.className} ${styles.text4}`}>Code With Passion</p>
     </section>

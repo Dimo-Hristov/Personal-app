@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 12px;
+  padding: 18px;
   transition: all 0.3s;
 
   span {
@@ -37,6 +37,7 @@
 }
 
 .hamOpen {
+  padding-right: 20px;
   span:nth-child(1) {
     transform: rotate(45deg) translate(4px, 8px);
   }
@@ -74,6 +75,10 @@
 }
 
 @media (max-width: 760px) {
+  .header {
+    margin: 0;
+    height: 100px;
+  }
   .navbar {
     position: relative;
     background-color: var(--mobile-nav-color);

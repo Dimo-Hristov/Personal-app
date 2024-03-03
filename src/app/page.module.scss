@@ -59,7 +59,15 @@
   .links {
     margin-top: 40px;
 
+    .link1,
+    .link2 {
+      animation: linksMove 3s forwards;
+      animation-delay: 2s;
+      opacity: 0;
+    }
+
     a {
+      animation: linksMove 3s forwards;
       display: inline-block;
       width: 160px;
       padding: 16px;
@@ -82,6 +90,25 @@
     a:active {
       opacity: 0.7;
     }
+  }
+}
+
+@keyframes linksMove {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -122,5 +149,133 @@
   80% {
     letter-spacing: 8px;
     margin-bottom: -40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .homepage {
+    .text1 {
+      font-size: 36px;
+    }
+    .text2 {
+      font-size: 50px;
+    }
+    .text3 {
+      font-size: 26px;
+    }
+    .text4 {
+      font-size: 120px;
+      right: 50px;
+    }
+  }
+}
+
+@media (max-width: 1029px) {
+  .homepage {
+    .text4 {
+      font-size: 100px;
+      right: 20px;
+    }
+  }
+}
+
+@media (max-width: 870px) {
+  .homepage {
+    .text1 {
+      font-size: 28px;
+    }
+    .text2 {
+      font-size: 40px;
+    }
+    .text3 {
+      font-size: 22px;
+    }
+    .text4 {
+      font-size: 80px;
+      right: 40px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .homepage {
+    .text4 {
+      top: 430px;
+      font-size: 60px;
+    }
+  }
+}
+
+@media (max-width: 610px) {
+  @keyframes text {
+    0% {
+      color: var(--background-color);
+      margin-bottom: -40px;
+    }
+
+    30% {
+      letter-spacing: 15px;
+      margin-bottom: -40px;
+    }
+
+    80% {
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .homepage {
+    .text1 {
+      width: 100%;
+      margin: 0;
+      font-size: 28px;
+    }
+    .text2 {
+      font-size: 40px;
+      width: 100%;
+      margin: 0;
+      padding: 0 64px;
+    }
+    .text3 {
+      font-size: 22px;
+      width: 100%;
+      margin: 0;
+    }
+    .text4 {
+      right: 40px;
+      top: 550px;
+    }
+
+    .links {
+      margin: 36px 0 0 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+
+      a:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+  @keyframes text {
+    0% {
+      color: var(--background-color);
+      margin-bottom: -40px;
+    }
+
+    30% {
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+
+    80% {
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
   }
 }

@@ -28,3 +28,35 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  .footer {
+    .wrapper {
+      padding-top: 24px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .footer {
+    .wrapper {
+      gap: 8px;
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 359px) {
+  .footer {
+    .wrapper {
+      gap: 8px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.homepage {
+  text-align: center;
+  align-self: start;
+  margin-top: 40px;
+
+  .text1 {
+    font-size: 40px;
+    padding-right: 20%;
+    font-weight: 700;
+    color: #8b8e9a;
+    animation: text 2.5s 1;
+  }
+
+  .text2 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background-color: var(--background-color);
+    position: relative;
+    animation: text 2.5s 1;
+  }
+
+  .text3 {
+    font-size: 30px;
+    color: var(--active-link-color);
+  }
+}
+
+@keyframes text {
+  0% {
+    color: var(--background-color);
+    margin-bottom: -40px;
+  }
+
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+
+  80% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}

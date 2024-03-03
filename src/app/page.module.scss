@@ -5,7 +5,8 @@
 
   .text1,
   .text2,
-  .text3 {
+  .text3,
+  .links {
     width: fit-content;
     margin-left: 10%;
   }
@@ -22,7 +23,6 @@
     font-size: 60px;
     font-weight: 600;
     letter-spacing: 8px;
-    margin-bottom: 20px;
     background-color: var(--background-color);
     position: relative;
     animation: text 3s 1;
@@ -32,29 +32,57 @@
     font-size: 30px;
     color: var(--active-link-color);
   }
-}
 
-.text4 {
-  font-size: 140px;
-  font-weight: 500;
-  display: block;
-  transform: rotate(-25deg);
-  right: 50px;
-  top: 400px;
-  position: absolute;
-  color: #1a213b;
-}
-.text4 {
-  font-size: 140px;
-  font-weight: 500;
-  display: block;
-  transform: rotate(-25deg);
-  right: 50px;
-  top: 400px;
-  position: absolute;
-  color: #1a213b;
-  opacity: 0;
-  animation: fadeInAndMove 3s forwards;
+  .text4 {
+    font-size: 140px;
+    font-weight: 500;
+    display: block;
+    transform: rotate(-25deg);
+    right: 50px;
+    top: 400px;
+    position: absolute;
+    color: #1a213b;
+  }
+  .text4 {
+    font-size: 140px;
+    font-weight: 500;
+    display: block;
+    transform: rotate(-25deg);
+    right: 50px;
+    top: 400px;
+    position: absolute;
+    color: #1a213b;
+    opacity: 0;
+    animation: fadeInAndMove 3s forwards;
+  }
+
+  .links {
+    margin-top: 40px;
+
+    a {
+      display: inline-block;
+      width: 160px;
+      padding: 16px;
+      background: rgb(73, 41, 191);
+      background: linear-gradient(
+        288deg,
+        rgba(73, 41, 191, 1) 19%,
+        rgba(80, 162, 217, 1) 90%
+      );
+      border-radius: 8px;
+    }
+    a:last-child {
+      margin-left: 8px;
+    }
+
+    a:hover {
+      opacity: 0.9;
+    }
+
+    a:active {
+      opacity: 0.7;
+    }
+  }
 }
 
 @keyframes fadeInAndMove {

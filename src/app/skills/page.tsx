@@ -14,7 +14,7 @@ import { IoLogoIonic } from "react-icons/io";
 const skills = () => {
   return (
     <section className={styles.skillsSection}>
-      <article>
+      <article className={styles.firstArticle}>
         <h2>Front-end</h2>
         <div className={styles.iconsContainer}>
           <div className={styles.html}>
@@ -64,7 +64,7 @@ const skills = () => {
         </div>
       </article>
 
-      <article>
+      <article className={styles.secondArticle}>
         <h2>Back-end</h2>
         <div className={styles.iconsContainer}>
           <div className={styles.node}>
@@ -84,7 +84,7 @@ const skills = () => {
         </div>
       </article>
 
-      <article>
+      <article className={styles.thirdArticle}>
         <h2>DataBase</h2>
         <div className={styles.iconsContainer}>
           <div className={styles.db}>

@@ -1,0 +1,43 @@
+.contactSection {
+  background: linear-gradient(
+    180deg,
+    rgba(80, 167, 218, 1) 19%,
+    rgba(75, 47, 203, 1) 90%
+  );
+  border-radius: 12px;
+  box-shadow: 0px 0px 32px -11px rgba(13, 13, 13, 13.1);
+  padding: 16px;
+
+  ::placeholder {
+    color: #6f7483;
+    font-weight: 500;
+  }
+
+  .contactForm {
+    input,
+    button,
+    textarea {
+      display: block;
+      background-color: #101630;
+      padding: 8px;
+      border: none;
+      color: white;
+      width: 320px;
+      margin: 8px;
+      border-radius: 8px;
+    }
+
+    button {
+      width: fit-content;
+      padding: 8px 24px;
+      margin: 0 auto;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    textarea {
+      resize: none;
+      height: 200px;
+    }
+  }
+}

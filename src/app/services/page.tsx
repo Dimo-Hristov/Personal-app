@@ -67,7 +67,9 @@ const services = () => {
             </div>
 
             <p>
-            Crafting visually appealing interfaces and seamless user experiences through a blend of creativity and functionality to captivate users and enhance brand engagement.
+              Crafting visually appealing interfaces and seamless user
+              experiences through a blend of creativity and functionality to
+              captivate users and enhance brand engagement.
             </p>
           </article>
         </li>

@@ -18,8 +18,8 @@ export const links: NavItem[] = [
     path: "/services",
   },
   {
-    title: "EXPERIENCE",
-    path: "/experience",
+    title: "SKILLS",
+    path: "/skills",
   },
   {
     title: "CONTACT",

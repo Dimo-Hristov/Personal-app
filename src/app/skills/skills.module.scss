@@ -8,7 +8,7 @@
   margin-bottom: 140px;
 
   article {
-    width: 100%;
+    width: 90%;
     padding: 5px;
     background: rgb(80, 156, 214);
     background: linear-gradient(
@@ -131,5 +131,11 @@
         color: #47a248;
       }
     }
+  }
+}
+
+@media (max-width: 760px) {
+  .skillsSection {
+    margin-top: 36px;
   }
 }

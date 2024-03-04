@@ -77,7 +77,7 @@ const skills = () => {
             <h3>Express.js</h3>
           </div>
 
-          <div className={styles.mn}>
+          <div className={styles.mng}>
             <SiMongoose />
             <h3>Mongoose</h3>
           </div>
@@ -85,7 +85,7 @@ const skills = () => {
       </article>
 
       <article>
-        <h2>DB</h2>
+        <h2>DataBase</h2>
         <div className={styles.iconsContainer}>
           <div className={styles.db}>
             <SiMongodb />

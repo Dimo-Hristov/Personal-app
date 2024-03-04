@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 36px;
+  padding: 0 18px;
 
   h2 {
     text-align: center;
@@ -11,7 +12,9 @@
 
   .iconsContainer {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
     margin-top: 32px;
     div {
       text-align: center;
@@ -55,6 +58,12 @@
       }
     }
 
+    .react {
+      svg {
+        color: #61dafb;
+      }
+    }
+
     .next {
       svg {
         color: #000000;
@@ -66,7 +75,37 @@
 
     .ion {
       svg {
-        color: #3880ff;
+        color: #498aff;
+      }
+    }
+
+    .hnd {
+      svg {
+        color: #ff7e00;
+      }
+    }
+
+    .node {
+      svg {
+        color: #339933;
+      }
+    }
+
+    .ex {
+      svg {
+        color: #aeeefc;
+      }
+    }
+
+    .mng {
+      svg {
+        color: #880000;
+      }
+    }
+
+    .db {
+      svg {
+        color: #47a248;
       }
     }
   }

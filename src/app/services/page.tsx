@@ -5,7 +5,7 @@ import {
 } from "react-icons/md";
 import { FaMobileAlt, FaDesktop } from "react-icons/fa";
 
-const services = () => {
+const Services = () => {
   return (
     <section className={styles.services}>
       <h1>SERVICES</h1>
@@ -78,4 +78,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

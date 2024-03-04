@@ -2,8 +2,9 @@ import styles from "./contact.module.scss";
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import Link from "next/link";
+import ContactForm from "@/components/contactForm/page";
 
-const contact = () => {
+const Contact = () => {
   return (
     <section className={styles.contactPage}>
       <h1>CONTACT</h1>
@@ -49,10 +50,10 @@ const contact = () => {
           </div>
         </section>
 
-        <section className={styles.form}></section>
+        <ContactForm />
       </div>
     </section>
   );
 };
 
-export default contact;
+export default Contact;

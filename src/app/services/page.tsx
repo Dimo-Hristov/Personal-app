@@ -11,7 +11,7 @@ const Services = () => {
       <h1>SERVICES</h1>
 
       <ul className={styles.servicesList} role="list">
-        <li>
+        <li className={styles.first}>
           <article>
             <div className={styles.titleIconContainer}>
               <div className={styles.iconContainer}>
@@ -27,7 +27,7 @@ const Services = () => {
             </p>
           </article>
         </li>
-        <li>
+        <li className={styles.second}>
           <article>
             <div className={styles.titleIconContainer}>
               <div className={styles.iconContainer}>
@@ -42,7 +42,7 @@ const Services = () => {
             </p>
           </article>
         </li>
-        <li>
+        <li className={styles.third}>
           <article>
             <div className={styles.titleIconContainer}>
               <div className={styles.iconContainer}>
@@ -57,7 +57,7 @@ const Services = () => {
             </p>
           </article>
         </li>
-        <li>
+        <li className={styles.fourth}>
           <article>
             <div className={styles.titleIconContainer}>
               <div className={styles.iconContainer}>

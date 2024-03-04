@@ -199,68 +199,6 @@
   }
 }
 
-// .firstArticle {
-//   animation: dropFirst 4s 1;
-//   z-index: 3;
-// }
-
-// .secondArticle {
-//   animation: dropSecond 4s 1;
-//   z-index: 2;
-// }
-
-// .thirdArticle {
-//   animation: dropThird 4s 1;
-//   z-index: 1;
-// }
-
-// @keyframes dropFirst {
-//   0% {
-//     opacity: 0;
-//     transform: translateX(-100%);
-//   }
-//   10% {
-//     opacity: 1;
-//     transform: translateY(0%);
-//   }
-//   25% {
-//     opacity: 1;
-//   }
-//   100% {
-//     opacity: 1;
-//   }
-// }
-
-// @keyframes dropSecond {
-//   0% {
-//     opacity: 0;
-//     transform: translateX(100%);
-//   }
-//   25% {
-//     opacity: 0;
-//     transform: translateY(100%);
-//   }
-//   40% {
-//     opacity: 1;
-//     transform: translateY(0%);
-//   }
-// }
-
-// @keyframes dropThird {
-//   0% {
-//     opacity: 0;
-//     transform: translateX(100%);
-//   }
-//   40% {
-//     opacity: 0;
-//     transform: translateX(100%);
-//   }
-//   55% {
-//     opacity: 1;
-//     transform: translate(0%, 0%);
-//   }
-// }
-
 @media (max-width: 760px) {
   .skillsSection {
     margin-top: 36px;

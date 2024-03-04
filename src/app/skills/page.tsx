@@ -15,81 +15,87 @@ const skills = () => {
   return (
     <section className={styles.skillsSection}>
       <article className={styles.firstArticle}>
-        <h2>Front-end</h2>
-        <div className={styles.iconsContainer}>
-          <div className={styles.html}>
-            <FaHtml5 />
-            <h3>HTML5</h3>
-          </div>
+        <div className={styles.filler}>
+          <h2>Front-end</h2>
+          <div className={styles.iconsContainer}>
+            <div className={styles.html}>
+              <FaHtml5 />
+              <h3>HTML5</h3>
+            </div>
 
-          <div className={styles.css}>
-            <IoLogoCss3 />
-            <h3>CSS3</h3>
-          </div>
+            <div className={styles.css}>
+              <IoLogoCss3 />
+              <h3>CSS3</h3>
+            </div>
 
-          <div className={styles.js}>
-            <IoLogoJavascript />
-            <h3>Javascript</h3>
-          </div>
+            <div className={styles.js}>
+              <IoLogoJavascript />
+              <h3>Javascript</h3>
+            </div>
 
-          <div className={styles.ts}>
-            <SiTypescript />
-            <h3>Typescript</h3>
-          </div>
+            <div className={styles.ts}>
+              <SiTypescript />
+              <h3>Typescript</h3>
+            </div>
 
-          <div className={styles.ang}>
-            <FaAngular />
-            <h3>Angular</h3>
-          </div>
+            <div className={styles.ang}>
+              <FaAngular />
+              <h3>Angular</h3>
+            </div>
 
-          <div className={styles.react}>
-            <FaReact />
-            <h3>React.JS</h3>
-          </div>
+            <div className={styles.react}>
+              <FaReact />
+              <h3>React.JS</h3>
+            </div>
 
-          <div className={styles.next}>
-            <SiNextdotjs />
-            <h3>Next.JS</h3>
-          </div>
+            <div className={styles.next}>
+              <SiNextdotjs />
+              <h3>Next.JS</h3>
+            </div>
 
-          <div className={styles.ion}>
-            <IoLogoIonic />
-            <h3>Ionic</h3>
-          </div>
+            <div className={styles.ion}>
+              <IoLogoIonic />
+              <h3>Ionic</h3>
+            </div>
 
-          <div className={styles.hnd}>
-            <SiHandlebarsdotjs />
-            <h3>Handlebars</h3>
+            <div className={styles.hnd}>
+              <SiHandlebarsdotjs />
+              <h3>Handlebars</h3>
+            </div>
           </div>
         </div>
       </article>
 
       <article className={styles.secondArticle}>
-        <h2>Back-end</h2>
-        <div className={styles.iconsContainer}>
-          <div className={styles.node}>
-            <FaNodeJs />
-            <h3>Node.JS</h3>
-          </div>
+        <div className={styles.filler}>
+          <h2>Back-end</h2>
+          <div className={styles.iconsContainer}>
+            <div className={styles.node}>
+              <FaNodeJs />
+              <h3>Node.JS</h3>
+            </div>
 
-          <div className={styles.ex}>
-            <SiExpress />
-            <h3>Express.js</h3>
-          </div>
+            <div className={styles.ex}>
+              <SiExpress />
+              <h3>Express.js</h3>
+            </div>
 
-          <div className={styles.mng}>
-            <SiMongoose />
-            <h3>Mongoose</h3>
+            <div className={styles.mng}>
+              <SiMongoose />
+              <h3>Mongoose</h3>
+            </div>
           </div>
         </div>
       </article>
 
       <article className={styles.thirdArticle}>
-        <h2>DataBase</h2>
-        <div className={styles.iconsContainer}>
-          <div className={styles.db}>
-            <SiMongodb />
-            <h3>Mongo DB</h3>
+        <div className={styles.filler}>
+          <h2>DataBase</h2>
+          <div className={styles.iconsContainer}>
+            <div className={styles.db}>
+              <SiMongodb />
+              <h3>Mongo DB</h3>
+            </div>
           </div>
         </div>
       </article>

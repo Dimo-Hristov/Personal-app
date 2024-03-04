@@ -7,10 +7,13 @@
   padding: 0 32px;
   margin-bottom: 140px;
 
+  .filler {
+    background-color: var(--background-color);
+  }
+
   article {
     width: 90%;
     padding: 5px;
-    background: rgb(80, 156, 214);
     background: linear-gradient(
       288deg,
       rgba(80, 156, 214, 1) 19%,
@@ -22,22 +25,22 @@
   }
 
   h2 {
-    background-color: var(--background-color);
     text-align: center;
     margin: 0 auto;
     padding-top: 16px;
     border-radius: 6px 6px 0 0;
+    border-bottom: 1px solid transparent;
   }
 
   .iconsContainer {
     border-radius: 0 0 6px 6px;
-    background-color: var(--background-color);
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
-    padding-top: 16px;
     padding-bottom: 16px;
+    padding-top: 18px;
 
     div {
       text-align: center;
@@ -133,10 +136,10 @@
     }
   }
 }
-
 .firstArticle {
   animation: dropFirst 4s 1;
   z-index: 3;
+  position: relative;
 }
 
 .secondArticle {
@@ -152,7 +155,7 @@
 @keyframes dropFirst {
   0% {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   10% {
     opacity: 1;
@@ -169,11 +172,11 @@
 @keyframes dropSecond {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
   25% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   40% {
     opacity: 1;
@@ -184,17 +187,79 @@
 @keyframes dropThird {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
   40% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
   55% {
     opacity: 1;
-    transform: translate(0%, 0%);
+    transform: translateY(0%);
   }
 }
+
+// .firstArticle {
+//   animation: dropFirst 4s 1;
+//   z-index: 3;
+// }
+
+// .secondArticle {
+//   animation: dropSecond 4s 1;
+//   z-index: 2;
+// }
+
+// .thirdArticle {
+//   animation: dropThird 4s 1;
+//   z-index: 1;
+// }
+
+// @keyframes dropFirst {
+//   0% {
+//     opacity: 0;
+//     transform: translateX(-100%);
+//   }
+//   10% {
+//     opacity: 1;
+//     transform: translateY(0%);
+//   }
+//   25% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes dropSecond {
+//   0% {
+//     opacity: 0;
+//     transform: translateX(100%);
+//   }
+//   25% {
+//     opacity: 0;
+//     transform: translateY(100%);
+//   }
+//   40% {
+//     opacity: 1;
+//     transform: translateY(0%);
+//   }
+// }
+
+// @keyframes dropThird {
+//   0% {
+//     opacity: 0;
+//     transform: translateX(100%);
+//   }
+//   40% {
+//     opacity: 0;
+//     transform: translateX(100%);
+//   }
+//   55% {
+//     opacity: 1;
+//     transform: translate(0%, 0%);
+//   }
+// }
 
 @media (max-width: 760px) {
   .skillsSection {

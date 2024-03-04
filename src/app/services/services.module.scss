@@ -70,3 +70,24 @@
     }
   }
 }
+
+@media (max-width: 930px) {
+  .services {
+    .servicesList {
+      grid-template-columns: repeat(1, 340px);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .services {
+    padding: 16px;
+    .servicesList {
+      grid-template-columns: repeat(1, 300px);
+
+      li {
+        height: 290px;
+      }
+    }
+  }
+}

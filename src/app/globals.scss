@@ -47,6 +47,11 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 /* Set core body defaults */
 body {
   min-height: 100vh;

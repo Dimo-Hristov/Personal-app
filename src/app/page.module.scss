@@ -1,5 +1,6 @@
 .homepage {
   margin-top: 20px;
+  margin-bottom: 25rem;
 
   .text1,
   .text2,
@@ -216,27 +217,49 @@
   }
 }
 
+@media (max-width: 530px) {
+  .homepage {
+    .text4 {
+      left: 50px;
+    }
+  }
+}
+
 @media (max-width: 460px) {
+  @keyframes text {
+    0% {
+      color: var(--background-color);
+      margin-bottom: -40px;
+    }
+
+    30% {
+      letter-spacing: 10px;
+      margin-bottom: -40px;
+    }
+
+    80% {
+      letter-spacing: 6px;
+      margin-bottom: -40px;
+    }
+  }
+
   .homepage {
     .text1 {
       width: 100%;
-      margin: 0;
       font-size: 28px;
     }
     .text2 {
-      font-size: 40px;
+      letter-spacing: 4px;
+      font-size: 32px;
       width: 100%;
-      margin: 0;
-      padding: 0 64px;
     }
     .text3 {
       font-size: 22px;
       width: 100%;
-      margin: 0;
     }
     .text4 {
       right: 40px;
-      top: 560px;
+      top: 480px;
     }
 
     .links {
@@ -251,22 +274,6 @@
       a:last-child {
         margin-left: 0;
       }
-    }
-  }
-  @keyframes text {
-    0% {
-      color: var(--background-color);
-      margin-bottom: -40px;
-    }
-
-    30% {
-      letter-spacing: 25px;
-      margin-bottom: -40px;
-    }
-
-    80% {
-      letter-spacing: 8px;
-      margin-bottom: -40px;
     }
   }
 }

@@ -7,7 +7,7 @@ export const links: NavItem[] = [
   },
   {
     title: "ABOUT ME",
-    path: "/aboutr",
+    path: "/about",
   },
   {
     title: "PORTFOLIO",

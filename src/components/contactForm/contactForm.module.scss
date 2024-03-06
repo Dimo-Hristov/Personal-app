@@ -1,4 +1,4 @@
-.contactSection {
+.contactArticle {
   background: linear-gradient(
     180deg,
     rgba(80, 167, 218, 1) 19%,
@@ -38,6 +38,19 @@
     textarea {
       resize: none;
       height: 200px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .contactArticle {
+    padding: 16px 8px;
+    .contactForm {
+      input,
+      button,
+      textarea {
+        width: 280px;
+      }
     }
   }
 }

@@ -53,6 +53,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   max-width: 1920px;
+  margin: 0 auto;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: var(--background-color);

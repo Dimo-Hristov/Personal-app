@@ -4,7 +4,7 @@ import styles from "./contactForm.module.scss";
 
 const ContactForm = () => {
   return (
-    <section className={styles.contactSection}>
+    <article className={styles.contactArticle}>
       <form className={styles.contactForm}>
         <input type="text" name="name" id="name" placeholder="Name" />
         <input type="text" name="email" id="email" placeholder="Email" />
@@ -12,7 +12,7 @@ const ContactForm = () => {
 
         <button> Send</button>
       </form>
-    </section>
+    </article>
   );
 };
 

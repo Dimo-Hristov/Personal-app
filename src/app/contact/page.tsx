@@ -10,7 +10,7 @@ const Contact = () => {
       <h1>CONTACT</h1>
 
       <div className={styles.infoWrapper}>
-        <section className={styles.infoSection}>
+        <article className={styles.infoSection}>
           <h3>Send me a message</h3>
           <p className={styles.description}>
             Get in touch! Whether you have questions about my projects, want to
@@ -48,7 +48,7 @@ const Contact = () => {
               <p>Sofia, Bulgaria</p>
             </div>
           </div>
-        </section>
+        </article>
 
         <ContactForm />
       </div>

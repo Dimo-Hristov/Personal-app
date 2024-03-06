@@ -121,3 +121,14 @@
     transform: translateX(0);
   }
 }
+
+@media (max-width: 540px) {
+  .aboutSection {
+    .aboutMe {
+      .imageWrapper {
+        width: 200px;
+        height: 250px;
+      }
+    }
+  }
+}

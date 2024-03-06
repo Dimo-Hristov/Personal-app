@@ -38,7 +38,10 @@ const About = () => {
       </div>
 
       <div className={styles.education}>
-        <SeparationLine />
+        <div className={styles.leftAnimation}>
+          <SeparationLine />
+        </div>
+
         <h3>Education</h3>
         <article>
           <div className={styles.filler}>

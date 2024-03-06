@@ -1,7 +1,11 @@
 import styles from "./loading.module.scss";
 
 const Loading = () => {
-  return <div className={styles.loader}></div>;
+  return (
+    <section className={styles.loaderSection}>
+      <div className={styles.loader}></div>
+    </section>
+  );
 };
 
 export default Loading;

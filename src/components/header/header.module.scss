@@ -7,13 +7,6 @@
   position: relative;
 }
 
-.overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 99;
-}
-
 .imgContainer {
   position: relative;
   height: 100px;
@@ -84,6 +77,12 @@
 }
 
 @media (max-width: 760px) {
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+  }
   .imgContainer {
     top: -20px;
   }

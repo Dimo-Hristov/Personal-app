@@ -15,8 +15,7 @@ const NavLink: React.FC<NavLinkProps> = ({ item }) => {
   return (
     <Link
       href={item.path}
-      className={`${styles.navlink} ${pathName === item.path
-         && styles.active}`}
+      className={`${styles.navlink} ${pathName === item.path && styles.active}`}
     >
       {item.title}
     </Link>

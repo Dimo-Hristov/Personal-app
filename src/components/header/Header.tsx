@@ -15,6 +15,7 @@ const Header = () => {
         <Image src={"/logo.png"} alt="Logo" fill />
       </Link>
       <nav
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
         className={`${styles.navbar} ${
           isMenuOpen ? styles.navOpen : styles.navClosed
         }`}

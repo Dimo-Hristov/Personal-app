@@ -8,7 +8,7 @@ export const projects: Project[] = [
     imageUrl: "/bela-apartment.png",
     type: "freelance",
     technologies: ["Javascript", "HTML", "CSS"],
-    projectUrl: "",
+    projectUrl: "https://apartment-bela.com/",
   },
   {
     title: "Racefanatic App",

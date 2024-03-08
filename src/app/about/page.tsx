@@ -36,41 +36,6 @@ const About = () => {
           <p>Let&apos;s collaborate and turn your ideas into reality!</p>
         </article>
       </div>
-
-      <div className={styles.education}>
-        <div className={styles.leftAnimation}>
-          <SeparationLine />
-        </div>
-
-        <h3>Education</h3>
-        <article>
-          <div className={styles.filler}>
-            <h4>Hight school diploma</h4>
-            <SeparationLine />
-            <p>4th EPAL of Athens, Greece</p>
-            <p>Computer science - 3 Years</p>
-          </div>
-        </article>
-
-        <article>
-          <div className={styles.filler}>
-            <h4>Javascript development</h4>
-            <SeparationLine />
-            <p>SoftUni Sofia, Bulgaria</p>
-            <p>
-              Javascript path, from basics to the latest technologies - 2 Years
-            </p>
-          </div>
-        </article>
-
-        <article>
-          <div className={styles.filler}>
-            <h4>Self improvement</h4>
-            <SeparationLine />
-            <p>Reading documentations and practice on daily basis.</p>
-          </div>
-        </article>
-      </div>
     </section>
   );
 };

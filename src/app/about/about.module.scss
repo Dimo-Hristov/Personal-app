@@ -5,13 +5,13 @@
   text-align: center;
 
   .aboutMe {
-    animation: right 1.5s 1;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 32px;
 
     .info {
+      animation: right 1.5s 1;
       max-width: 600px;
       h1 {
         text-align: center;
@@ -25,6 +25,7 @@
     }
 
     .imageWrapper {
+      animation: left 1.5s 1;
       position: relative;
       width: 300px;
       height: 350px;
@@ -56,49 +57,6 @@
       img {
         object-fit: fill;
         border-radius: 8px;
-      }
-    }
-  }
-
-  .education {
-    h3 {
-      padding: 32px 0;
-      animation: left 2s 1;
-    }
-
-    .leftAnimation {
-      animation: left 2s 1;
-    }
-
-    article {
-      animation: right 2s 1;
-      margin: 0 auto;
-      margin-bottom: 32px;
-      width: 90%;
-      padding: 5px;
-      background: linear-gradient(
-        288deg,
-        rgba(80, 156, 214, 1) 19%,
-        rgba(72, 18, 188, 1) 90%
-      );
-      box-shadow: 16px 16px 48px -23px rgba(80, 156, 214, 1),
-        -17px -7px 48px -16px rgba(72, 18, 188, 1);
-      border-radius: 8px;
-
-      .filler {
-        background-color: var(--background-color);
-        height: 120px;
-        border-radius: 4px;
-      }
-
-      h4 {
-        padding: 6px;
-      }
-
-      p {
-        margin-top: 6px;
-        color: var(--gray-text-color);
-        padding: 0 8px;
       }
     }
   }

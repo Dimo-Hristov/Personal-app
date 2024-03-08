@@ -11,8 +11,17 @@ const Portfolio = () => {
       {projects.map((project: Project) => (
         <article key={project.title}>
           <div className={styles.info}>
-            <h3>{project.title}</h3>
+            <h3>
+              {project.title}
+              <span className={styles.projectType}>{project.type}</span>
+            </h3>
             <p>{project.description}</p>
+            <div className={styles.technologies}>
+              <h4>Tech Stack Overview</h4>
+              {project.technologies.map((technology) => (
+                <span key={technology}>{technology}</span>
+              ))}
+            </div>
             <div className={styles.technologies}>
               <div className={styles.ts}></div>
             </div>

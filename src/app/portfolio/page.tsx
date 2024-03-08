@@ -3,7 +3,6 @@ import styles from "./portfolio.module.scss";
 import { projects } from "@/shared/data/projects";
 import { Project } from "@/shared/types/Project";
 import Link from "next/link";
-import { GrTechnology } from "react-icons/gr";
 
 const Portfolio = () => {
   return (

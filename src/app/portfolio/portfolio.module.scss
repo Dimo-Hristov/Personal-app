@@ -9,8 +9,7 @@
   }
 
   .projectArticle {
-    box-shadow: inset 0px 0px 64px -26px rgba(80, 156, 214, 1),
-      0px 0px 46px -13px rgba(72, 18, 188, 1);
+    animation: hide 3s 1;
     margin: 48px auto;
     max-width: 1000px;
     padding: 32px 64px;
@@ -108,5 +107,15 @@
 
   .projectArticle:nth-child(odd) .techAndLinks {
     justify-content: flex-end;
+  }
+}
+
+// animations
+@keyframes hide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

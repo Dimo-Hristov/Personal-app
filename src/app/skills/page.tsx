@@ -18,47 +18,47 @@ const skills = () => {
         <div className={styles.filler}>
           <h2>Front-end</h2>
           <div className={styles.iconsContainer}>
-            <div className={styles.html}>
+            <div className="html">
               <FaHtml5 />
               <h3>HTML5</h3>
             </div>
 
-            <div className={styles.css}>
+            <div className="css">
               <IoLogoCss3 />
               <h3>CSS3</h3>
             </div>
 
-            <div className={styles.js}>
+            <div className="js">
               <IoLogoJavascript />
               <h3>Javascript</h3>
             </div>
 
-            <div className={styles.ts}>
+            <div className="ts">
               <SiTypescript />
               <h3>Typescript</h3>
             </div>
 
-            <div className={styles.ang}>
+            <div className="ang">
               <FaAngular />
               <h3>Angular</h3>
             </div>
 
-            <div className={styles.react}>
+            <div className="react">
               <FaReact />
               <h3>React.JS</h3>
             </div>
 
-            <div className={styles.next}>
+            <div className="next">
               <SiNextdotjs />
               <h3>Next.JS</h3>
             </div>
 
-            <div className={styles.ion}>
+            <div className="ion">
               <IoLogoIonic />
               <h3>Ionic</h3>
             </div>
 
-            <div className={styles.hnd}>
+            <div className="hnd">
               <SiHandlebarsdotjs />
               <h3>Handlebars</h3>
             </div>
@@ -70,17 +70,17 @@ const skills = () => {
         <div className={styles.filler}>
           <h2>Back-end</h2>
           <div className={styles.iconsContainer}>
-            <div className={styles.node}>
+            <div className="node">
               <FaNodeJs />
               <h3>Node.JS</h3>
             </div>
 
-            <div className={styles.ex}>
+            <div className="ex">
               <SiExpress />
               <h3>Express.js</h3>
             </div>
 
-            <div className={styles.mng}>
+            <div className="mng">
               <SiMongoose />
               <h3>Mongoose</h3>
             </div>
@@ -92,7 +92,7 @@ const skills = () => {
         <div className={styles.filler}>
           <h2>DataBase</h2>
           <div className={styles.iconsContainer}>
-            <div className={styles.db}>
+            <div className="db">
               <SiMongodb />
               <h3>Mongo DB</h3>
             </div>

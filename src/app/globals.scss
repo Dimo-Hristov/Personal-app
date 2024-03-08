@@ -98,3 +98,85 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+// Technologies icons styles
+.html {
+  svg {
+    color: #e34c26;
+  }
+}
+
+.css {
+  svg {
+    color: #2965f1;
+  }
+}
+
+.js {
+  svg {
+    color: #f0db4f;
+  }
+}
+
+.ts {
+  svg {
+    color: #007acc;
+  }
+}
+
+.ang {
+  svg {
+    color: #dd1b16;
+  }
+}
+
+.react {
+  svg {
+    color: #61dafb;
+  }
+}
+
+.next {
+  svg {
+    color: #000000;
+    background-color: white;
+    border-radius: 100%;
+    padding: 1px;
+  }
+}
+
+.ion {
+  svg {
+    color: #498aff;
+  }
+}
+
+.hnd {
+  svg {
+    color: #ff7e00;
+  }
+}
+
+.node {
+  svg {
+    color: #339933;
+  }
+}
+
+.ex {
+  svg {
+    color: #aeeefc;
+  }
+}
+
+.mng {
+  svg {
+    color: #880000;
+  }
+}
+
+.db {
+  svg {
+    color: #47a248;
+  }
+}

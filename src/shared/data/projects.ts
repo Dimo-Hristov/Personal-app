@@ -20,15 +20,15 @@ export const projects: Project[] = [
     imageUrl: "/bela-apartment.png",
   },
   {
-    title: "Travel Forum",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea aliquam alias impedit possimus, minus temporibus explicabo. Est cupiditate qui soluta nihil quasi culpa, eveniet deserunt eos, autem fugit voluptatibus!",
-    imageUrl: "/travel-forum.png",
-  },
-  {
     title: "Auto Explorer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea aliquam alias impedit possimus, minus temporibus explicabo. Est cupiditate qui soluta nihil quasi culpa, eveniet deserunt eos, autem fugit voluptatibus!",
     imageUrl: "/auto-explorer.png",
+  },
+  {
+    title: "Travel Forum",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ea aliquam alias impedit possimus, minus temporibus explicabo. Est cupiditate qui soluta nihil quasi culpa, eveniet deserunt eos, autem fugit voluptatibus!",
+    imageUrl: "/travel-forum.png",
   },
 ];

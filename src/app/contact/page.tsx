@@ -28,13 +28,13 @@ const Contact = () => {
 
             <div>
               <Link
-                href="mailto:dimo_xristov@protonmail.com"
+                href="mailto:contact@dimosphere.com"
                 className={styles.contactLink}
               >
                 <MdOutlineMarkEmailRead />
               </Link>
 
-              <p> dimo_xristov@protonmail.com</p>
+              <p>contact@dimosphere.com</p>
             </div>
 
             <div>

@@ -20,7 +20,7 @@ const Contact = () => {
 
           <div className={styles.contactsWrapper}>
             <div>
-              <Link href="tel:1234567890" className={styles.contactLink}>
+              <Link href="tel:+359 89 733 5537" className={styles.contactLink}>
                 <IoCallOutline />
               </Link>
               <p>+359 89 733 5537</p>

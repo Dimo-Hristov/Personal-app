@@ -2,6 +2,7 @@
   margin-top: 20px;
   flex: 1;
   max-width: 100%;
+  min-height: 700px;
 
   .text1,
   .text2,
@@ -218,10 +219,6 @@
     .text4 {
       left: 50px;
     }
-  }
-
-  .homepage {
-    min-height: 700px;
   }
 }
 

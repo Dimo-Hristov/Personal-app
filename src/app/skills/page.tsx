@@ -14,6 +14,7 @@ import { IoLogoIonic } from "react-icons/io";
 const skills = () => {
   return (
     <section className={styles.skillsSection}>
+      <h1>SKILLS</h1>
       <article className={styles.firstArticle}>
         <div className={styles.filler}>
           <h2>Front-end</h2>

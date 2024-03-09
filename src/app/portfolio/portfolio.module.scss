@@ -51,6 +51,7 @@
 
     .contentWrapper {
       display: flex;
+      flex-wrap: wrap;
       gap: 64px;
 
       h3 {
@@ -117,5 +118,34 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 964px) {
+  .portfolioPage {
+    .projectArticle {
+      padding: 32px 18px;
+      .contentWrapper {
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        .info {
+          flex: 0 1 100%;
+
+          p {
+            margin: 0 auto;
+          }
+
+          h3 {
+            text-align: center;
+          }
+        }
+      }
+
+      .techAndLinks {
+        flex-direction: column;
+      }
+    }
   }
 }

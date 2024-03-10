@@ -9,6 +9,7 @@ export const projects: Project[] = [
     type: "freelance",
     technologies: ["Javascript", "HTML", "CSS"],
     projectUrl: "https://apartment-bela.com/",
+    githubUrl: "https://github.com/Dimo-Hristov/bella-apartments",
   },
   {
     title: "Racefanatic App",
@@ -17,7 +18,8 @@ export const projects: Project[] = [
     imageUrl: "/race-app.jpg",
     type: "intern",
     technologies: ["Angular", "ionic", "Typescript"],
-    projectUrl: "",
+    projectUrl: "https://racefanatic.app/",
+    githubUrl: "https://github.com/Getsov/Motorsport-Events-App",
   },
   {
     title: "Racefanatic Admin Panel",
@@ -26,7 +28,8 @@ export const projects: Project[] = [
     imageUrl: "/admin-panel.png",
     type: "intern",
     technologies: ["Angular", "ionic", "Typescript"],
-    projectUrl: "",
+    projectUrl: "https://racefanatic.app/",
+    githubUrl: "https://github.com/Getsov/Motorsport-Events-Admin",
   },
 
   {
@@ -36,7 +39,8 @@ export const projects: Project[] = [
     imageUrl: "/auto-explorer.png",
     type: "education",
     technologies: ["Javascript", "React.js"],
-    projectUrl: "",
+    projectUrl: "https://heartfelt-vacherin-ec768e.netlify.app",
+    githubUrl: "https://github.com/Dimo-Hristov/Auto-explorer",
   },
   {
     title: "Travel Forum",
@@ -45,6 +49,7 @@ export const projects: Project[] = [
     imageUrl: "/travel-forum.png",
     type: "education",
     technologies: ["Angular", "Javascript"],
-    projectUrl: "",
+    projectUrl: "https://zingy-meerkat-0359f4.netlify.app",
+    githubUrl: "https://github.com/Dimo-Hristov/Travel-destinations-Forum",
   },
 ];

@@ -43,7 +43,7 @@ const Portfolio = () => {
               <Link href={project.projectUrl} target="_blank">
                 Visit website
               </Link>
-              <Link href={project.projectUrl} target="_blank">
+              <Link href={project.githubUrl} target="_blank">
                 Github Repo
               </Link>
             </div>

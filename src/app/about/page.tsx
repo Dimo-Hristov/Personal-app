@@ -10,7 +10,7 @@ const About = () => {
           <div className={styles.border}>
             <div className={styles.filler}></div>
           </div>
-          <Image src={"/profile-pic.jpg"} alt="Logo" fill />
+          <Image src={"/images/profile-pic.jpg"} alt="Logo" fill />
         </div>
 
         <article className={styles.info}>

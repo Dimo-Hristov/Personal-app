@@ -22,11 +22,7 @@ const Portfolio = () => {
 
             <div className={styles.imageInfo}>
               <div className={styles.imageContainer}>
-                <Image
-                  src={`/images/${project.imageUrl}`}
-                  alt="project image"
-                  fill
-                ></Image>
+                <Image src={project.imageUrl} alt="project image" fill></Image>
               </div>
             </div>
           </div>

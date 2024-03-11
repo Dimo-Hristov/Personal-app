@@ -23,7 +23,7 @@ const Header = () => {
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <Link href={"/"} className={styles.imgContainer}>
-          <Image src={"/logo.png"} alt="Logo" fill />
+          <Image src={"/images/logo.png"} alt="Logo" fill />
         </Link>
         <nav
           className={`${styles.navbar} ${

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./about.module.scss";
-import SeparationLine from "@/components/separationLine/page";
 
 const About = () => {
   return (

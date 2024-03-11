@@ -52,4 +52,14 @@ export const projects: Project[] = [
     projectUrl: "https://zingy-meerkat-0359f4.netlify.app",
     githubUrl: "https://github.com/Dimo-Hristov/Travel-destinations-Forum",
   },
+  {
+    title: "Wizard Creatures",
+    description:
+      "Explore our SSR project for a clean and interactive experience. With modern design and user-friendly features, every click is intuitive. Welcome to a world of simplicity and sophistication, enhancing your online journey.",
+    imageUrl: "/images/wizard-creatures.png",
+    type: "education",
+    technologies: ["Handlebars", "Express", "Mongoose"],
+    projectUrl: "https://wizard-creatures.onrender.com",
+    githubUrl: "https://github.com/Dimo-Hristov/wizard-creatures",
+  },
 ];

@@ -23,8 +23,8 @@ const Portfolio = () => {
             <div className={styles.imageInfo}>
               <div className={styles.imageContainer}>
                 <Image
-                  src={project.imageUrl}
-                  alt="race-fantic app"
+                  src={`/images/${project.imageUrl}`}
+                  alt="project image"
                   fill
                 ></Image>
               </div>

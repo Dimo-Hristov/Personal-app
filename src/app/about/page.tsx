@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./about.module.scss";
-import SeparationLine from "@/components/separationLine/page";
 
 const About = () => {
   return (
@@ -10,7 +9,7 @@ const About = () => {
           <div className={styles.border}>
             <div className={styles.filler}></div>
           </div>
-          <Image src={"/images/profile-pic.jpg"} alt="Logo" fill />
+          <Image src={"/images/profile-350x350.jpg"} alt="Logo" fill />
         </div>
 
         <article className={styles.info}>
